@@ -125,7 +125,7 @@ class SwingWorkerFrame extends JFrame {
 					data.number = lineNumber;
 					data.line = line;
 					publish(data);
-					Thread.sleep(10); // to test cancellation, no need to do this in your programs
+					//Thread.sleep(10); // to test cancellation, no need to do this in your programs
 				}
 			}
 			return text;
